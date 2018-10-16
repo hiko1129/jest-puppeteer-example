@@ -1,0 +1,20 @@
+{
+  "name": "phosphorus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.4.0",
+    "puppeteer": "^1.9.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  }
+}
